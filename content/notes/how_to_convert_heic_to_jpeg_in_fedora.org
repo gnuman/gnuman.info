@@ -1,0 +1,11 @@
+---
+title: "How  to  convert  heic images to  jpeg  in Fedora"
+date: 2024-06-27T19:42:38+10:00
+tags: ['Fedora', 'How-to']
+draft: false
+---
+To convert heic images to Jpeg images in Fedora, one neds to install [[https://packages.fedoraproject.org/pkgs/libheif/libheif-tools/][libheif-tools]].
+On Installation
+#+begin_src
+  heif-convert heic_image.heic
+#+end_src
